@@ -1,9 +1,9 @@
 package com.example.weatherapp.model
 
 data class WeatherModel(
-    val cityName: String,
-    val cityWeather: String,
+    val placeName: String,
+    val weatherInfo: String,
 ) {
-    val name: String = cityName
-    val weather: String = cityWeather
+    val place: String = placeName
+    val weather: String = weatherInfo
 }

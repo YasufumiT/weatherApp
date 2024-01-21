@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity(), WeatherContract.View {
     override fun setWeatherInfo(weatherModel: WeatherModel) {
         val place: TextView = findViewById(R.id.placeName)
         val weather: TextView = findViewById(R.id.weather)
-        place.text = "${weatherModel.name}の天気は"
+        place.text = "${weatherModel.place}の天気は"
         weather.text = "${weatherModel.weather}です。"
     }
 
